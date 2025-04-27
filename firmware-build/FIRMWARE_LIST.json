@@ -1,8 +1,8 @@
 {
   "firmwareList": [
     {
-      "name": "donglee_mg21_zigbee_stable_6.10.9_115200.gbl",
-      "dongleType": "ZBDongle-E",
+      "name": "ihost_mg21_zigbee_stable_6.10.9_115200.gbl",
+      "dongleType": "iHost",
       "chipModel": "mg21",
       "firmwareType": "Zigbee",
       "firmwareDesc": "stable",
@@ -10,8 +10,8 @@
       "baudRate": "115200"
     },
     {
-      "name": "donglee_mg21_zigbee_stable_7.4.1_115200.gbl",
-      "dongleType": "ZBDongle-E",
+      "name": "ihost_mg21_zigbee_stable_7.4.1_115200.gbl",
+      "dongleType": "iHost",
       "chipModel": "mg21",
       "firmwareType": "Zigbee",
       "firmwareDesc": "stable",
@@ -19,8 +19,8 @@
       "baudRate": "115200"
     },
     {
-      "name": "donglee_mg21_zigbee_stable_7.4.3_115200.gbl",
-      "dongleType": "ZBDongle-E",
+      "name": "ihost_mg21_zigbee_stable_7.4.3_115200.gbl",
+      "dongleType": "iHost",
       "chipModel": "mg21",
       "firmwareType": "Zigbee",
       "firmwareDesc": "stable",
@@ -28,8 +28,8 @@
       "baudRate": "115200"
     },
     {
-      "name": "donglee_mg21_zigbee_stable_7.4.4_115200.gbl",
-      "dongleType": "ZBDongle-E",
+      "name": "ihost_mg21_zigbee_stable_7.4.4_115200.gbl",
+      "dongleType": "iHost",
       "chipModel": "mg21",
       "firmwareType": "Zigbee",
       "firmwareDesc": "stable",
