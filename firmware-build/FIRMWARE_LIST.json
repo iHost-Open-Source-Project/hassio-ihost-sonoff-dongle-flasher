@@ -1,0 +1,40 @@
+{
+  "firmwareList": [
+    {
+      "name": "donglee_mg21_zigbee_stable_6.10.9_115200.gbl",
+      "dongleType": "ZBDongle-E",
+      "chipModel": "mg21",
+      "firmwareType": "Zigbee",
+      "firmwareDesc": "stable",
+      "version": "6.10.9",
+      "baudRate": "115200"
+    },
+    {
+      "name": "donglee_mg21_zigbee_stable_7.4.1_115200.gbl",
+      "dongleType": "ZBDongle-E",
+      "chipModel": "mg21",
+      "firmwareType": "Zigbee",
+      "firmwareDesc": "stable",
+      "version": "7.4.1",
+      "baudRate": "115200"
+    },
+    {
+      "name": "donglee_mg21_zigbee_stable_7.4.3_115200.gbl",
+      "dongleType": "ZBDongle-E",
+      "chipModel": "mg21",
+      "firmwareType": "Zigbee",
+      "firmwareDesc": "stable",
+      "version": "7.4.3",
+      "baudRate": "115200"
+    },
+    {
+      "name": "donglee_mg21_zigbee_stable_7.4.4_115200.gbl",
+      "dongleType": "ZBDongle-E",
+      "chipModel": "mg21",
+      "firmwareType": "Zigbee",
+      "firmwareDesc": "stable",
+      "version": "7.4.4",
+      "baudRate": "115200"
+    }
+  ]
+}
