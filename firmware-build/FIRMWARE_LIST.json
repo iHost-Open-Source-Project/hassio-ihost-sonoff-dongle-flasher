@@ -1,11 +1,11 @@
 {
   "firmwareList": [
     {
-      "name": "ihost_mg21_zigbee_beta_8.0.2_115200.gbl",
+      "name": "ihost_mg21_zigbee_stable_8.0.2_115200.gbl",
       "dongleType": "iHost",
       "chipModel": "mg21",
       "firmwareType": "Zigbee",
-      "firmwareDesc": "beta",
+      "firmwareDesc": "stable",
       "version": "8.0.2",
       "baudRate": "115200"
     },
