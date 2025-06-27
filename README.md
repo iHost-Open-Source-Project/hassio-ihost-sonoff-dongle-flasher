@@ -1,3 +1,3 @@
 # SONOFF Dongle Flasher For iHost
 
-Upgrade the built-in MG21 (Zigbee coordinator) firmware on iHost with one-click flashing through the web interface.
+SONOFF Dongle Flasher supports online firmware flashing for the iHost MG21 chip and the SONOFF Dongle series (ZBDongle-P and ZBDongle-E).
