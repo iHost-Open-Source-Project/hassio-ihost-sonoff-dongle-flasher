@@ -118,15 +118,6 @@
             "baudRate": "115200"
         },
         {
-            "name": "ihost_mg21_multipan_stable_4.4.5_115200.gbl",
-            "dongleType": "iHost",
-            "chipModel": "mg21",
-            "firmwareType": "MultiPAN",
-            "firmwareDesc": "stable",
-            "version": "4.4.5",
-            "baudRate": "115200"
-        },
-        {
             "name": "ihost_mg21_openthread_stable_2.4.4_460800.gbl",
             "dongleType": "iHost",
             "chipModel": "mg21",
