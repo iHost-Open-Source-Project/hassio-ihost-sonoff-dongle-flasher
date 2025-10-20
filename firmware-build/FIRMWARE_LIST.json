@@ -91,6 +91,69 @@
             "baudRate": "115200"
         },
         {
+            "name": "donglelmg21_mg21_zigbee_factory_7.4.5_115200.gbl",
+            "dongleType": "Dongle-LMG21",
+            "chipModel": "mg21",
+            "firmwareType": "Zigbee",
+            "firmwareDesc": "factory",
+            "version": "7.4.5",
+            "baudRate": "115200"
+        },
+        {
+            "name": "donglem_esp32_beta_1.0.4_115200.bin",
+            "dongleType": "Dongle-M",
+            "chipModel": "esp32",
+            "firmwareType": "Official",
+            "firmwareDesc": "beta",
+            "version": "1.0.4",
+            "baudRate": "115200"
+        },
+        {
+            "name": "donglem_esp32_stable_1.0.3_115200.bin",
+            "dongleType": "Dongle-M",
+            "chipModel": "esp32",
+            "firmwareType": "Official",
+            "firmwareDesc": "stable",
+            "version": "1.0.3",
+            "baudRate": "115200"
+        },
+        {
+            "name": "donglem_mg24_multipan_stable_1.0.3_115200_4.6.0.gbl",
+            "dongleType": "Dongle-M",
+            "chipModel": "mg24",
+            "firmwareType": "MultiPAN",
+            "firmwareDesc": "stable",
+            "version": "1.0.3",
+            "baudRate": "115200"
+        },
+        {
+            "name": "donglem_mg24_openthread_stable_1.0.0_115200_4.4.5.gbl",
+            "dongleType": "Dongle-M",
+            "chipModel": "mg24",
+            "firmwareType": "OpenThread",
+            "firmwareDesc": "stable",
+            "version": "1.0.0",
+            "baudRate": "115200"
+        },
+        {
+            "name": "donglem_mg24_zigbee_stable_1.0.0_115200.gbl",
+            "dongleType": "Dongle-M",
+            "chipModel": "mg24",
+            "firmwareType": "Zigbee",
+            "firmwareDesc": "stable",
+            "version": "1.0.0",
+            "baudRate": "115200"
+        },
+        {
+            "name": "donglepmg24_mg24_zigbee_factory_7.4.5_115200.gbl",
+            "dongleType": "Dongle-PMG24",
+            "chipModel": "mg24",
+            "firmwareType": "Zigbee",
+            "firmwareDesc": "factory",
+            "version": "7.4.5",
+            "baudRate": "115200"
+        },
+        {
             "name": "donglep_cc2652p_zigbeerouter_stable_20221102_115200.hex",
             "dongleType": "ZBDongle-P",
             "chipModel": "cc2652p",
