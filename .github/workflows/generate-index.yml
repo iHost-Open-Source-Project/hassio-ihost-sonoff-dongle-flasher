@@ -1,8 +1,8 @@
-﻿name: Build FIRMWARE_LIST.json on push (master)
+﻿name: Build FIRMWARE_LIST.json on push (main)
 
 on:
     push:
-        branches: [master]
+        branches: [main]
         paths:
             - 'firmware-build/**'
             - 'scripts/**'
