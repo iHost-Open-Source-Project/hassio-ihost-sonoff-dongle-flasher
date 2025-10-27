@@ -1,0 +1,9 @@
+--bind
+
+-W .github/workflows/generate-index.yml
+
+-j generate
+
+--verbose
+
+-P ubuntu-latest=ghcr.io/catthehacker/ubuntu:act-latest

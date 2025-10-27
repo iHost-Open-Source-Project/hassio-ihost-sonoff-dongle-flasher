@@ -1,0 +1,72 @@
+﻿name: Build FIRMWARE_LIST.json on push (master)
+
+on:
+    push:
+        branches: [master]
+        paths:
+            - 'firmware-build/**'
+            - 'scripts/**'
+            # Optional: modify to match your actual workflow file name, or remove if unnecessary
+            - '.github/workflows/generate-index.yml'
+
+permissions:
+    contents: write
+
+concurrency:
+    group: generate-index-${{ github.ref }}
+    cancel-in-progress: true
+
+jobs:
+    generate:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+              with:
+                  fetch-depth: 0
+
+            - name: Setup Node
+              uses: actions/setup-node@v4
+              with:
+                  node-version: 20
+
+            # Prepare environment variables using RUNNER_TEMP.
+            # This ensures both GitHub Actions and act (local runner) are compatible.
+            - name: Prepare temp paths (portable for act)
+              shell: bash
+              run: |
+                  echo "NPM_TEMP_PREFIX=${RUNNER_TEMP}/npm" >> "$GITHUB_ENV"
+                  echo "NODE_PATH=${RUNNER_TEMP}/npm/node_modules" >> "$GITHUB_ENV"
+
+            # (Optional) Install temporary dependencies (e.g. lodash)
+            # Dependencies are installed into the temp directory, not inside the repository.
+            - name: Install transient deps to temp (lodash optional)
+              shell: bash
+              run: |
+                  mkdir -p "$NPM_TEMP_PREFIX"
+                  npm install lodash \
+                    --no-save \
+                    --no-package-lock \
+                    --prefix "$NPM_TEMP_PREFIX"
+
+            # Run your JavaScript script that generates FIRMWARE_LIST.json
+            - name: Run script
+              env:
+                  NODE_PATH: ${{ env.NODE_PATH }}
+              run: node scripts/generate-json.js
+
+            # Commit and push only the generated file to the repository.
+            # This prevents other files or temp dependencies from being added.
+            - name: Commit & push only the generated file
+              shell: bash
+              run: |
+                  if [ -n "$(git status --porcelain -- firmware-build/FIRMWARE_LIST.json)" ]; then
+                    git config user.name  "github-actions[bot]"
+                    git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+                    git add firmware-build/FIRMWARE_LIST.json
+                    git commit -m "chore: auto-generate FIRMWARE_LIST.json [skip ci]"
+                    git push
+                  else
+                    echo "No changes in firmware-build/FIRMWARE_LIST.json"
+                  fi
