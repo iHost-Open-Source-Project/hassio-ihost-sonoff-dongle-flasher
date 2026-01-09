@@ -145,21 +145,12 @@
       "baudRate": "115200"
     },
     {
-      "name": "donglem_esp32_beta_1.0.4_115200.bin",
+      "name": "donglem_esp32_factory_1.0.5_115200.bin",
       "dongleType": "Dongle-M",
       "chipModel": "esp32",
       "firmwareType": "Official",
-      "firmwareDesc": "beta",
-      "version": "1.0.4",
-      "baudRate": "115200"
-    },
-    {
-      "name": "donglem_esp32_stable_1.0.3_115200.bin",
-      "dongleType": "Dongle-M",
-      "chipModel": "esp32",
-      "firmwareType": "Official",
-      "firmwareDesc": "stable",
-      "version": "1.0.3",
+      "firmwareDesc": "factory",
+      "version": "1.0.5",
       "baudRate": "115200"
     },
     {
