@@ -57,7 +57,7 @@ function parseFirmwareList(firmwareNameList) {
         const match = name.match(/^([a-zA-Z0-9]+)_([a-zA-Z0-9]+)?(?:_([a-zA-Z0-9]+))?_([a-zA-Z0-9]+)_([0-9.]+)_([0-9]+)(?:_([0-9.]+))?\.(bin|gbl|hex)$/);
 
         if (match) {
-            const [, dongleType, chipModel, firmwareType, firmwareDesc, version, baudRate] = match;
+            const [, dongleType, chipModel, firmwareType, firmwareDesc, version, baudRate, sdkVersion] = match;
 
             return {
                 name,
@@ -67,6 +67,7 @@ function parseFirmwareList(firmwareNameList) {
                 firmwareDesc,
                 version,
                 baudRate,
+                sdkVersion: sdkVersion || '',
             };
         } else {
             console.log('Firmware info did not match pattern:', name);
@@ -84,6 +85,8 @@ function mapFirmwareType(type, chipModel) {
         zigbeerouter: 'Zigbee Router',
         openthread: 'OpenThread',
         multipan: 'MultiPAN',
+        router: 'Router',
+        controller: 'Controller',
     };
 
     const mappingRes = mapping[type];
@@ -102,6 +105,8 @@ function mapDongleType(type) {
         donglem: 'Dongle-M',
         donglelmg21: 'Dongle-LMG21',
         donglepmg24: 'Dongle-PMG24',
+        donglemzg23: 'Dongle-MZG23',
+        donglepzg23: 'Dongle-PZG23',
     };
 
     return mapping[type] || 'unknown';
