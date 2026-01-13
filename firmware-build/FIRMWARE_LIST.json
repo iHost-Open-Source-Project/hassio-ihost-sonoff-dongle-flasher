@@ -7,7 +7,8 @@
       "firmwareType": "MultiPAN",
       "firmwareDesc": "beta",
       "version": "4.6.0",
-      "baudRate": "115200"
+      "baudRate": "115200",
+      "sdkVersion": ""
     },
     {
       "name": "donglee_mg21_openthread_stable_2.4.4_460800.gbl",
@@ -16,7 +17,8 @@
       "firmwareType": "OpenThread",
       "firmwareDesc": "stable",
       "version": "2.4.4",
-      "baudRate": "460800"
+      "baudRate": "460800",
+      "sdkVersion": ""
     },
     {
       "name": "donglee_mg21_zigbee_stable_6.10.3_115200.gbl",
@@ -25,7 +27,8 @@
       "firmwareType": "Zigbee",
       "firmwareDesc": "stable",
       "version": "6.10.3",
-      "baudRate": "115200"
+      "baudRate": "115200",
+      "sdkVersion": ""
     },
     {
       "name": "donglee_mg21_zigbee_stable_7.4.1_115200.gbl",
@@ -34,7 +37,8 @@
       "firmwareType": "Zigbee",
       "firmwareDesc": "stable",
       "version": "7.4.1",
-      "baudRate": "115200"
+      "baudRate": "115200",
+      "sdkVersion": ""
     },
     {
       "name": "donglee_mg21_zigbee_stable_7.4.3_115200.gbl",
@@ -43,7 +47,8 @@
       "firmwareType": "Zigbee",
       "firmwareDesc": "stable",
       "version": "7.4.3",
-      "baudRate": "115200"
+      "baudRate": "115200",
+      "sdkVersion": ""
     },
     {
       "name": "donglee_mg21_zigbee_stable_7.4.4_115200.gbl",
@@ -52,7 +57,8 @@
       "firmwareType": "Zigbee",
       "firmwareDesc": "stable",
       "version": "7.4.4",
-      "baudRate": "115200"
+      "baudRate": "115200",
+      "sdkVersion": ""
     },
     {
       "name": "donglee_mg21_zigbee_stable_8.0.2_115200.gbl",
@@ -61,7 +67,8 @@
       "firmwareType": "Zigbee",
       "firmwareDesc": "stable",
       "version": "8.0.2",
-      "baudRate": "115200"
+      "baudRate": "115200",
+      "sdkVersion": ""
     },
     {
       "name": "donglee_mg21_zigbeerouter_stable_6.10.3_115200.gbl",
@@ -70,7 +77,8 @@
       "firmwareType": "Zigbee Router",
       "firmwareDesc": "stable",
       "version": "6.10.3",
-      "baudRate": "115200"
+      "baudRate": "115200",
+      "sdkVersion": ""
     },
     {
       "name": "donglee_mg21_zigbeerouter_stable_7.4.3_115200.gbl",
@@ -79,7 +87,8 @@
       "firmwareType": "Zigbee Router",
       "firmwareDesc": "stable",
       "version": "7.4.3",
-      "baudRate": "115200"
+      "baudRate": "115200",
+      "sdkVersion": ""
     },
     {
       "name": "donglee_mg21_zigbeerouter_stable_8.0.2_115200.gbl",
@@ -88,7 +97,8 @@
       "firmwareType": "Zigbee Router",
       "firmwareDesc": "stable",
       "version": "8.0.2",
-      "baudRate": "115200"
+      "baudRate": "115200",
+      "sdkVersion": ""
     },
     {
       "name": "donglelmg21_mg21_multipan_stable_4.6.0_115200.gbl",
@@ -97,7 +107,8 @@
       "firmwareType": "MultiPAN",
       "firmwareDesc": "stable",
       "version": "4.6.0",
-      "baudRate": "115200"
+      "baudRate": "115200",
+      "sdkVersion": ""
     },
     {
       "name": "donglelmg21_mg21_openthread_stable_2.4.4_460800.gbl",
@@ -106,7 +117,8 @@
       "firmwareType": "OpenThread",
       "firmwareDesc": "stable",
       "version": "2.4.4",
-      "baudRate": "460800"
+      "baudRate": "460800",
+      "sdkVersion": ""
     },
     {
       "name": "donglelmg21_mg21_zigbee_factory_7.4.5_115200.gbl",
@@ -115,7 +127,8 @@
       "firmwareType": "Zigbee",
       "firmwareDesc": "factory",
       "version": "7.4.5",
-      "baudRate": "115200"
+      "baudRate": "115200",
+      "sdkVersion": ""
     },
     {
       "name": "donglelmg21_mg21_zigbee_stable_7.5.0_115200.gbl",
@@ -124,7 +137,8 @@
       "firmwareType": "Zigbee",
       "firmwareDesc": "stable",
       "version": "7.5.0",
-      "baudRate": "115200"
+      "baudRate": "115200",
+      "sdkVersion": ""
     },
     {
       "name": "donglelmg21_mg21_zigbee_stable_8.0.2_115200.gbl",
@@ -133,7 +147,8 @@
       "firmwareType": "Zigbee",
       "firmwareDesc": "stable",
       "version": "8.0.2",
-      "baudRate": "115200"
+      "baudRate": "115200",
+      "sdkVersion": ""
     },
     {
       "name": "donglelmg21_mg21_zigbeerouter_stable_7.5.0_115200.gbl",
@@ -142,7 +157,8 @@
       "firmwareType": "Zigbee Router",
       "firmwareDesc": "stable",
       "version": "7.5.0",
-      "baudRate": "115200"
+      "baudRate": "115200",
+      "sdkVersion": ""
     },
     {
       "name": "donglem_esp32_factory_1.0.5_115200.bin",
@@ -151,7 +167,8 @@
       "firmwareType": "Official",
       "firmwareDesc": "factory",
       "version": "1.0.5",
-      "baudRate": "115200"
+      "baudRate": "115200",
+      "sdkVersion": ""
     },
     {
       "name": "donglem_mg24_multipan_stable_1.0.3_115200_4.6.0.gbl",
@@ -160,7 +177,8 @@
       "firmwareType": "MultiPAN",
       "firmwareDesc": "stable",
       "version": "1.0.3",
-      "baudRate": "115200"
+      "baudRate": "115200",
+      "sdkVersion": "4.6.0"
     },
     {
       "name": "donglem_mg24_openthread_stable_1.0.0_115200_4.4.5.gbl",
@@ -169,7 +187,8 @@
       "firmwareType": "OpenThread",
       "firmwareDesc": "stable",
       "version": "1.0.0",
-      "baudRate": "115200"
+      "baudRate": "115200",
+      "sdkVersion": "4.4.5"
     },
     {
       "name": "donglem_mg24_zigbee_stable_1.0.0_115200.gbl",
@@ -178,7 +197,8 @@
       "firmwareType": "Zigbee",
       "firmwareDesc": "stable",
       "version": "1.0.0",
-      "baudRate": "115200"
+      "baudRate": "115200",
+      "sdkVersion": ""
     },
     {
       "name": "donglep_cc2652p_zigbee_stable_20240710_115200.hex",
@@ -187,7 +207,8 @@
       "firmwareType": "Zigbee",
       "firmwareDesc": "stable",
       "version": "20240710",
-      "baudRate": "115200"
+      "baudRate": "115200",
+      "sdkVersion": ""
     },
     {
       "name": "donglep_cc2652p_zigbee_stable_20250321_115200.hex",
@@ -196,7 +217,8 @@
       "firmwareType": "Zigbee",
       "firmwareDesc": "stable",
       "version": "20250321",
-      "baudRate": "115200"
+      "baudRate": "115200",
+      "sdkVersion": ""
     },
     {
       "name": "donglep_cc2652p_zigbeerouter_stable_20221102_115200.hex",
@@ -205,7 +227,8 @@
       "firmwareType": "Zigbee Router",
       "firmwareDesc": "stable",
       "version": "20221102",
-      "baudRate": "115200"
+      "baudRate": "115200",
+      "sdkVersion": ""
     },
     {
       "name": "donglep_cc2652p_zigbeerouter_stable_20250403_115200.hex",
@@ -214,7 +237,8 @@
       "firmwareType": "Zigbee Router",
       "firmwareDesc": "stable",
       "version": "20250403",
-      "baudRate": "115200"
+      "baudRate": "115200",
+      "sdkVersion": ""
     },
     {
       "name": "donglepmg24_mg24_multipan_stable_4.6.0_115200.gbl",
@@ -223,7 +247,8 @@
       "firmwareType": "MultiPAN",
       "firmwareDesc": "stable",
       "version": "4.6.0",
-      "baudRate": "115200"
+      "baudRate": "115200",
+      "sdkVersion": ""
     },
     {
       "name": "donglepmg24_mg24_openthread_stable_2.4.4_460800.gbl",
@@ -232,7 +257,8 @@
       "firmwareType": "OpenThread",
       "firmwareDesc": "stable",
       "version": "2.4.4",
-      "baudRate": "460800"
+      "baudRate": "460800",
+      "sdkVersion": ""
     },
     {
       "name": "donglepmg24_mg24_zigbee_factory_7.4.5_115200.gbl",
@@ -241,7 +267,8 @@
       "firmwareType": "Zigbee",
       "firmwareDesc": "factory",
       "version": "7.4.5",
-      "baudRate": "115200"
+      "baudRate": "115200",
+      "sdkVersion": ""
     },
     {
       "name": "donglepmg24_mg24_zigbee_stable_7.5.0_115200.gbl",
@@ -250,7 +277,8 @@
       "firmwareType": "Zigbee",
       "firmwareDesc": "stable",
       "version": "7.5.0",
-      "baudRate": "115200"
+      "baudRate": "115200",
+      "sdkVersion": ""
     },
     {
       "name": "donglepmg24_mg24_zigbee_stable_8.0.2_115200.gbl",
@@ -259,7 +287,8 @@
       "firmwareType": "Zigbee",
       "firmwareDesc": "stable",
       "version": "8.0.2",
-      "baudRate": "115200"
+      "baudRate": "115200",
+      "sdkVersion": ""
     },
     {
       "name": "donglepmg24_mg24_zigbeerouter_stable_7.5.0_115200.gbl",
@@ -268,7 +297,18 @@
       "firmwareType": "Zigbee Router",
       "firmwareDesc": "stable",
       "version": "7.5.0",
-      "baudRate": "115200"
+      "baudRate": "115200",
+      "sdkVersion": ""
+    },
+    {
+      "name": "donglepzg23_zg23_controller_stable_7.23.1_115200.gbl",
+      "dongleType": "Dongle-PZG23",
+      "chipModel": "zg23",
+      "firmwareType": "Controller",
+      "firmwareDesc": "stable",
+      "version": "7.23.1",
+      "baudRate": "115200",
+      "sdkVersion": ""
     },
     {
       "name": "ihost_mg21_multipan_beta_4.6.0_115200.gbl",
@@ -277,7 +317,8 @@
       "firmwareType": "MultiPAN",
       "firmwareDesc": "beta",
       "version": "4.6.0",
-      "baudRate": "115200"
+      "baudRate": "115200",
+      "sdkVersion": ""
     },
     {
       "name": "ihost_mg21_openthread_stable_2.4.4_460800.gbl",
@@ -286,7 +327,8 @@
       "firmwareType": "OpenThread",
       "firmwareDesc": "stable",
       "version": "2.4.4",
-      "baudRate": "460800"
+      "baudRate": "460800",
+      "sdkVersion": ""
     },
     {
       "name": "ihost_mg21_zigbee_beta_8.0.2_115200.gbl",
@@ -295,7 +337,8 @@
       "firmwareType": "Zigbee",
       "firmwareDesc": "beta",
       "version": "8.0.2",
-      "baudRate": "115200"
+      "baudRate": "115200",
+      "sdkVersion": ""
     },
     {
       "name": "ihost_mg21_zigbee_stable_6.10.9_115200.gbl",
@@ -304,7 +347,8 @@
       "firmwareType": "Zigbee",
       "firmwareDesc": "stable",
       "version": "6.10.9",
-      "baudRate": "115200"
+      "baudRate": "115200",
+      "sdkVersion": ""
     },
     {
       "name": "ihost_mg21_zigbee_stable_7.4.1_115200.gbl",
@@ -313,7 +357,8 @@
       "firmwareType": "Zigbee",
       "firmwareDesc": "stable",
       "version": "7.4.1",
-      "baudRate": "115200"
+      "baudRate": "115200",
+      "sdkVersion": ""
     },
     {
       "name": "ihost_mg21_zigbee_stable_7.4.3_115200.gbl",
@@ -322,7 +367,8 @@
       "firmwareType": "Zigbee",
       "firmwareDesc": "stable",
       "version": "7.4.3",
-      "baudRate": "115200"
+      "baudRate": "115200",
+      "sdkVersion": ""
     },
     {
       "name": "ihost_mg21_zigbee_stable_7.4.4_115200.gbl",
@@ -331,7 +377,8 @@
       "firmwareType": "Zigbee",
       "firmwareDesc": "stable",
       "version": "7.4.4",
-      "baudRate": "115200"
+      "baudRate": "115200",
+      "sdkVersion": ""
     }
   ]
 }
