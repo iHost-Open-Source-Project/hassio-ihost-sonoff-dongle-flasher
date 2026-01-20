@@ -191,14 +191,14 @@
       "sdkVersion": "4.4.5"
     },
     {
-      "name": "donglem_mg24_zigbee_stable_1.0.0_115200.gbl",
+      "name": "donglem_mg24_zigbee_stable_1.0.0_115200_7.4.5.gbl",
       "dongleType": "Dongle-M",
       "chipModel": "mg24",
       "firmwareType": "Zigbee",
       "firmwareDesc": "stable",
       "version": "1.0.0",
       "baudRate": "115200",
-      "sdkVersion": ""
+      "sdkVersion": "7.4.5"
     },
     {
       "name": "donglep_cc2652p_zigbee_stable_20240710_115200.hex",
