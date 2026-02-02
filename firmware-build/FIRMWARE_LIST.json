@@ -181,14 +181,14 @@
       "sdkVersion": "4.6.0"
     },
     {
-      "name": "donglem_mg24_openthread_stable_1.0.0_115200_4.4.5.gbl",
+      "name": "donglem_mg24_openthread_stable_1.0.0_115200_2.4.4.gbl",
       "dongleType": "Dongle-M",
       "chipModel": "mg24",
       "firmwareType": "OpenThread",
       "firmwareDesc": "stable",
       "version": "1.0.0",
       "baudRate": "115200",
-      "sdkVersion": "4.4.5"
+      "sdkVersion": "2.4.4"
     },
     {
       "name": "donglem_mg24_zigbee_stable_1.0.0_115200_7.4.5.gbl",
