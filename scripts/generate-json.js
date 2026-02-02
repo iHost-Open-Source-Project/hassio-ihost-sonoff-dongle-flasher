@@ -59,6 +59,13 @@ function parseFirmwareList(firmwareNameList) {
         if (match) {
             const [, dongleType, chipModel, firmwareType, firmwareDesc, version, baudRate, sdkVersion] = match;
 
+            // TODO: Handle Dongle-M firmware which does not have SDK version
+            let newSdkVersion = sdkVersion || '';
+
+            if(dongleType === 'donglem') {
+                newSdkVersion = '';
+            }
+
             return {
                 name,
                 dongleType: mapDongleType(dongleType),
@@ -67,7 +74,7 @@ function parseFirmwareList(firmwareNameList) {
                 firmwareDesc,
                 version,
                 baudRate,
-                sdkVersion: sdkVersion || '',
+                sdkVersion: newSdkVersion,
             };
         } else {
             console.log('Firmware info did not match pattern:', name);
