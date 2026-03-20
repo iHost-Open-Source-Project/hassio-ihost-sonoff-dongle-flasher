@@ -321,6 +321,16 @@
       "sdkVersion": ""
     },
     {
+      "name": "donglepzg23_zg23_controller_stable_8.0.0_115200.gbl",
+      "dongleType": "Dongle-PZG23",
+      "chipModel": "zg23",
+      "firmwareType": "Controller",
+      "firmwareDesc": "stable",
+      "version": "8.0.0",
+      "baudRate": "115200",
+      "sdkVersion": ""
+    },
+    {
       "name": "ihost_mg21_multipan_beta_4.6.0_115200.gbl",
       "dongleType": "iHost",
       "chipModel": "mg21",
